@@ -1,3 +1,3 @@
 # html-CV-sample
-This CV template was made plainly with html.
-twitter post: https://twitter.com/CCodetrybe/status/1164991869060820994
+This CV page was made with html and css flex-box
+twitter post: https://twitter.com/CCodetrybe/status/1164991869060820994;

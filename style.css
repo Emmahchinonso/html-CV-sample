@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',sans-seriff;
+  text-decoration: none;
+}
+
+:root{
+  --primarycolor: #222;
+  --secondarycolor: #e1e1e1;
+}
+
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+}
+
+.col1{
+  background: var(--primarycolor);
+  flex-basis: 40%;
+}
+
+.wrapper-col1{
+  width:70%;
+  margin: 0 auto;
+  padding:10px;
+}
+
+.img{
+  width: 30%;
+  display: block;
+  margin: 20px auto 10px;
+  border-radius: 10%;
+}
+
+.content-block .intro{
+  text-align: center;
+  color: var(--secondarycolor);
+}
+
+.intro h1{
+
+}
+
+.summary{
+  margin-top: 20px;
+  padding:10px;
+  color: var(--secondarycolor)
+}
+
+.contact{
+  margin-top: 20px;
+}
+
+.contact p{
+  padding:10px;
+  color: var(--secondarycolor)
+}
+
+.head-banner{
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  background: var(--secondarycolor);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: var(--primarycolor);
+}
+
+.btn{
+  padding: 5px 10px;
+  background:#d63031;
+  color: var(--secondarycolor);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.skills{
+  margin-top: 10px;
+}
+
+.proficiency{
+  margin-left: 5px;
+  text-transform: lowercase;
+  color: #d63031;
+}
+
+.skills p{
+  padding: 10px;
+  color: var(--secondarycolor);
+  text-decoration: none;
+}
+
+.col2{
+  background: var(--secondarycolor);
+  flex-basis: 60%;
+}
+
+.wrapper-2{
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.head-banner2{
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  background: var(--primarycolor);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: var(--secondarycolor);
+}
+
+.education, .interests{
+  padding-top: 10px;
+}
+
+.education p{
+  padding-top: 7px;
+  margin-bottom: 15px;
+}
+
+.interests p{
+  padding: 10px;
+  font-size: 1.1rem;
+}
