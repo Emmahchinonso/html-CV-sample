@@ -181,7 +181,7 @@ body,html{
 
 .form-container{
   width:100vw;
-  height: 100vh;
+  height: 850px;
   background: var(--secondarycolor);
   display: flex;
   justify-content: space-around;
@@ -193,6 +193,13 @@ body,html{
   height: 80%;
   background: var(--primarycolor);
   margin: auto;
+}
+
+.btn2{
+  padding: 10px;
+  border: 0;
+  font-size: 1.1rem;
+  margin-top: 10px;
 }
 
 /*style for contact form*/
