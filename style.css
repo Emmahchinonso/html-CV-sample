@@ -1,3 +1,6 @@
+body,html{
+  overflow-x: hidden;
+}
 *{
   margin:0;
   box-sizing: border-box;
@@ -40,36 +43,50 @@
   color: var(--secondarycolor);
 }
 
+/*intro box section*/
 .intro h1{
+  font-size: 2rem;
+}
 
+.intro p{
+  font-size: 1.5rem;
 }
 
 .summary{
   margin-top: 20px;
   padding:10px;
+  font-size: 1.2rem;
   color: var(--secondarycolor)
 }
 
+/*contact section*/
 .contact{
   margin-top: 20px;
 }
 
 .contact p{
   padding:10px;
+  font-size:1.2rem;
   color: var(--secondarycolor)
 }
+/*contact section end*/
 
+/*head-banners section*/
 .head-banner{
   text-align: center;
   font-size: 1.3rem;
   text-transform: uppercase;
   background: var(--secondarycolor);
   padding: 10px;
+  font-weight: 800;
   border-radius: 20px;
   margin-bottom: 10px;
   color: var(--primarycolor);
 }
 
+/*head banners section end*/
+
+/*Git hub contact button*/
 .btn{
   padding: 5px 10px;
   background:#d63031;
@@ -83,17 +100,20 @@
   margin-top: 10px;
 }
 
+.skills p{
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--secondarycolor);
+  text-decoration: none;
+}
+
 .proficiency{
   margin-left: 5px;
   text-transform: lowercase;
   color: #d63031;
 }
 
-.skills p{
-  padding: 10px;
-  color: var(--secondarycolor);
-  text-decoration: none;
-}
+
 
 .col2{
   background: var(--secondarycolor);
@@ -104,6 +124,14 @@
   width: 70%;
   margin: 10px auto;
   padding: 10px;
+}
+
+.wrapper-2 h3{
+  font-size: 1.5rem;
+}
+
+.wrapper-2 h4{
+  font-size: 1.3rem;
 }
 
 .head-banner2{
@@ -124,9 +152,88 @@
 .education p{
   padding-top: 7px;
   margin-bottom: 15px;
+  font-size:1.2rem;
 }
 
 .interests p{
   padding: 10px;
+  font-size: 1.2rem;
+}
+
+.action{
+  font-size: 1.2rem;
+  margin-top: 100px;
+  padding-left: 10px;
+}
+
+.action button{
+  background: #d63031;
+  padding: 10px;
+  border: 0;
+}
+
+.action button a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
   font-size: 1.1rem;
+}
+
+.form-container{
+  width:100vw;
+  height: 100vh;
+  background: var(--secondarycolor);
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.form-wrapper{
+  width: 50%;
+  height: 80%;
+  background: var(--primarycolor);
+  margin: auto;
+}
+
+/*style for contact form*/
+#contact-form{
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+label{
+  display: block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 5px 0;
+  color: var(--secondarycolor);
+}
+
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+textarea{
+  width: 100%;
+  font-size: 1.2rem;
+
+}
+input:focus,textarea:focus{
+  border-color: #30afd6ce;
+}
+
+/*style for validity*/
+input:invalid{
+  border-color: red;
+  color: red;
+}
+
+input:valid,textarea:valid{
+  color: #000;
+  border-color: rgba(21, 199, 5, 0.678);
 }

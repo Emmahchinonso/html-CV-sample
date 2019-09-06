@@ -86,8 +86,33 @@
             <p>Watching Anime</p>
             <p>Meeting new people</p>
           </div>
+
+          <p class="action">
+            Interested in working with me
+            <button><a href="#contact-form">Lets talk</a></button>
+          </p>
         </div>
       </section>
+    </div>
+
+    <div class="form-container">
+      <div class="form-wrapper">
+        <form action="" id="contact-form">
+          <label for="name">Full name</label>
+          <input type="text" placeholder="Firstname lastname" id="name" pattern="[A-Za-z]{4,}\s[A-Za-z]{4,}|[A-Za-z]{4,}"/>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="eg: john@gmail.com" pattern="[a-z0-9._%]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+
+          <label for="title">Title</label>
+          <input type="text" id="title"/>
+
+          <label for="message">Your message</label>
+          <textarea name="" id="message" cols="30" rows="10" pattern="[^0-9]{20,}" minlength="20"></textarea>
+
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
